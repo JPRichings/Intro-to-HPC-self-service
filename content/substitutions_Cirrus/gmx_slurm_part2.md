@@ -1,20 +1,18 @@
-An example slurm script to run the benchmark on ARCHER2 is shown below
-
 
 ```{code-block} bash
 ---
-caption: archer2.slurm
+caption: cirrus.slurm
 ---
 #!/bin/bash
 
 #SBATCH --job-name=gmx_bench
 #SBATCH --nodes=1
-#SBATCH --tasks-per-node=128
+#SBATCH --tasks-per-node=1
 #SBATCH --cpus-per-task=1
 #SBATCH --time=00:10:00
 
 # Replace [budget code] below with your project code (e.g. t01)
-#SBATCH --account=z19
+#SBATCH --account=[budget code]
 #SBATCH --partition=standard
 #SBATCH --qos=standard
 
@@ -22,5 +20,8 @@ caption: archer2.slurm
 module load gromacs
 
 export OMP_NUM_THREADS=1 
-srun --distribution=block:block --hint=nomultithread gmx_mpi mdrun -s bench_465kHBS.tpr -v
+srun gmx_mpi mdrun -s water_x1.tpr  -v
 ```
+
+Make sure that ``nodes`` x ``tasks-per-node`` is close to the system size.
+i.e for ``water_x64.tpr`` use ``--nodes=2`` and ``--tasks-per-node=36`` 

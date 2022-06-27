@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "Parallel Performance on ARCHER2 using GROMACS"
+project = "Intoduction to HPC"
 copyright = "2022, The contributors"
 author = "Stephen Farr EPCC"
 github_user = "sfarr-epcc"
@@ -41,8 +41,14 @@ extensions = [
 
 myst_enable_extensions = [
     "substitution",
-    "dollarmath", 
+    "dollarmath",
 ]
+
+
+## https://myst-parser.readthedocs.io/en/latest/syntax/optional.html#substitutions-with-jinja2
+myst_substitutions = {
+  "machine_name": "ARCHER2"
+}
 
 # Settings for myst_nb:
 # https://myst-nb.readthedocs.io/en/latest/use/execute.html#triggering-notebook-execution

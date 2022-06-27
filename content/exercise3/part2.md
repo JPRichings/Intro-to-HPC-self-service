@@ -1,11 +1,4 @@
----
-substitutions:
-        slurm_info : |
-                ```{include} ../substitutions/gmx_archer2_slurm_part2.md
-                ```
----
-
-# Part 2 - Weak Scaling
+# Part 2: Weak Scaling
 
 In this section you will use a different benchmark system and investigate the weak scaling parallel performance.
 
@@ -30,8 +23,9 @@ The water model used is TIP3P, this has three sites per molecule, corresponding 
 
 The benchmarks are designed such that ``water_x1.tpr`` is a suitable size for running on 1 core. (GROMACS works best with ~1000 atoms per CPU)
 
-{{ slurm_info }}
+An example script to run the benchmark on {{ machine_name }} is shown below.
 
+{{  '```{include} ../substitutions_REPLACE/gmx_slurm_part2.md\n```'.replace("REPLACE",machine_name) }}
 
 Once again the important number is the ns/day figure.
 

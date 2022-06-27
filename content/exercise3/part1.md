@@ -1,11 +1,4 @@
----
-substitutions:
-        slurm_info : |
-                ```{include} ../substitutions/gmx_archer2_slurm_part1.md
-                ```
----
-
-# Part 1 - Strong Scaling 
+# Part 1: Strong Scaling 
 
 In this section you will run a benchmark simulation and investigate the strong scaling parallel performance.
 
@@ -32,7 +25,9 @@ The input file can be obtained from [https://www.hecbiosim.ac.uk/access-hpc/benc
 
 ## Running the benchmark
 
-{{ slurm_info }}
+An example script to run the benchmark on {{ machine_name }} is shown below.
+
+{{  '```{include} ../substitutions_REPLACE/gmx_slurm_part1.md\n```'.replace("REPLACE",machine_name) }}
 
 The bottom of the ``md.log`` file will contain the performance timings, e.g:
 
@@ -49,7 +44,7 @@ The most useful numbers to us are the wall-time ``95.966s`` , and the performanc
 - You should vary the number of nodes/CPUs and plot the performance. This investigates the strong scaling of the program.
 - What node count would you use for a long production simulation?
 - Previous benchmarks for this system can be found here:
-https://www.hecbiosim.ac.uk/access-hpc/our-benchmark-results/archer2-benchmarks
+[https://www.hecbiosim.ac.uk/access-hpc/our-benchmark-results/archer2-benchmarks](https://www.hecbiosim.ac.uk/access-hpc/our-benchmark-results/archer2-benchmarks)
 
 We have plotted our results for version 2021.3 of gromacs on ARCHER2 here:
 

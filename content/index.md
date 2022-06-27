@@ -1,4 +1,4 @@
-# Intoduction to HPC
+# Introduction to HPC
 
 Introduction
 
@@ -16,6 +16,8 @@ maxdepth: 2
 caption: Introduction to HPC
 ---
 
+exercise1/index
+exercise2/index
 exercise3/index
 
 ```

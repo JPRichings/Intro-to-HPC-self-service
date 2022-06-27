@@ -1,4 +1,3 @@
-An example slurm script to run the benchmark on ARCHER2 is shown below
 
 ```{code-block} bash
 ---
