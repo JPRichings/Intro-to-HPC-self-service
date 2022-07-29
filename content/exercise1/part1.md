@@ -28,4 +28,4 @@ Linux users do not need to install anything, you should be set! Use your termina
 
 The instructions below will guide you through setting up a logging account on {{ machine_name }}.
 
-{{  '```{include} ../substitutions_REPLACE/ssh_login.md\n```'.replace("REPLACE",machine_name) }}
+{{  '```{include} ../substitutions/substitutions_REPLACE/ssh_login.md\n```'.replace("REPLACE",machine_name) }}

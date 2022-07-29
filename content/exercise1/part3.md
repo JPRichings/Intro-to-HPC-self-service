@@ -23,7 +23,7 @@ To run this code in parallel it should be submitted to the compute nodes using S
 
 ## Running on the {{ machine_name }} compute nodes
 
-{{  '```{include} ../substitutions_REPLACE/ex1_slurm.md\n```'.replace("REPLACE",machine_name) }}
+{{  '```{include} ../substitutions/substitutions_REPLACE/ex1_slurm.md\n```'.replace("REPLACE",machine_name) }}
 
 
 ## Investigating the parallel speedup
