@@ -1,4 +1,4 @@
-# A breif Design overview of HPC systems
+# HPC system design
 
 In this section we will discuss the design of High performance computers and the workdflow for running simulations.
 
