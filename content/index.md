@@ -22,6 +22,14 @@ Hardware/index
 HPCUsage/index
 PracticalA/index
 BatchSystem/index
+PracticalB/index
+HPCProgramDesign/index
+Performance/index
+PracticalC/index
+Performance2/index
+PracticalD/index
+SupportandAccess/index
+Conclusion/index
 exercise1/index
 exercise2/index
 exercise3/index
