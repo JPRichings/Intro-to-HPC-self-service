@@ -1,17 +1,19 @@
 # What are HPC systems?
 
-High performance computer systems are collections of computing hardware designed to allow programs to run at scale. That is to run with more processing power and memory than can fit in a single server. This allows for faster time to solution and for otherwise intractable problems to be solved numerically.
+High performance computer systems are collections of computing hardware designed to allow programs to run at scale. That is to run with more processing power and memory than can fit in a single server. This allows for quicker time to solution and for otherwise intractable problems to be solved numerically.
 
 ## Hardware
 
-- made up ofthe same kit as your desktop computer.
+- made up of the same kit as your desktop computer.
 
 
-## subsection B
+## Example A: Archer2
 
 
-## subsection C
 
+
+
+## Example B: today's system
 
 
 

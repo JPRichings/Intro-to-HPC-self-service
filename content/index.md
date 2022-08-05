@@ -17,6 +17,7 @@ maxdepth: 2
 caption: Introduction to HPC
 ---
 
+Welcome/index
 Introduction/index
 Hardware/index
 HPCUsage/index

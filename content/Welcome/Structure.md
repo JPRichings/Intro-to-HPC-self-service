@@ -1,3 +1,3 @@
-# Course structure and timings
+# Timetable 
 
 - Welcome 9:00 am 

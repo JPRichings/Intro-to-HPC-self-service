@@ -1,6 +1,5 @@
 # Introduction to High Performance Computing
 
-In this section we will introduce high performance computers...
 
 
 ```{toctree}

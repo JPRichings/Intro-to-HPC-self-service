@@ -6,10 +6,9 @@ However, some problems are actually too large, too distant or too dangerous to s
 
 This gives the modern scientist a powerful new tool to study the real world in a virtual environment. The process of running a virtual experiment is called computer simulation. Compared to disciplines such as chemistry, biology and physics it is a relatively new area of research which has been around for a matter of decades rather than centuries. This new area, which many view as a third pillar of science which extends the two traditional approaches of theory and experiment, is called computational science and its practitioners are computational scientists.
 
-## subsection A
+## Simulation type A
+
+## Simulation type B
 
 
-## subsection B
-
-
-## subsection C
+## Simulation type C
